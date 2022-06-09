@@ -66,7 +66,7 @@
           <label class="form-label">
             Tiempo con este proveedor *
           </label>
-          <input class="form-control" type="number" formControlName="tiempo" placeholder="Tiempo con este proveedor ">
+          <input class="form-control" type="number" formControlName="tiempo" placeholder="Tiempo en Meses">
           <div *ngIf="f.tiempo.hasError('required') && f.tiempo.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
             Tiempo con este proveedor es requerido</div>
           <div *ngIf="f.tiempo.hasError('pattern') && f.tiempo.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
