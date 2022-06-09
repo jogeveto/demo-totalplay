@@ -19,7 +19,7 @@ SendForm(data: any){
       'Access-Control-Allow-Headers' : 'Origin, Content-Type, Accept, X-Custom-Header, Upgrade-Insecure-Requests',
     })
   };
-  return this.http.post(`https://app.outsourcingcos.com/webservice-dinamico/cos/services`, data);
+  return this.http.post(`https://app.outsourcingcos.com/cencosud/recibedatos`, data);
 }
 
 }
