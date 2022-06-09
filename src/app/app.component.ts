@@ -10,6 +10,7 @@ import { TotalService } from './services/total.service';
 })
 export class AppComponent implements OnInit {
   totalForm!: FormGroup;
+  send: boolean = false;
 
   constructor(
     private service: TotalService,
@@ -45,6 +46,7 @@ export class AppComponent implements OnInit {
       "codigo-promotor": form.value.codigo
     };
     this.service.SendForm(body).subscribe(resp => {
+      this.send = true;
       Swal.fire(
         'Excelente!',
         'Gracias por tomarse el tiempo para diligenciar el formulario.',
