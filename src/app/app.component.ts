@@ -32,9 +32,7 @@ export class AppComponent implements OnInit {
     return this.totalForm.controls;
   }
 
-  onSubmit(form: FormGroup) {
-    console.log('entro');
-    
+  onSubmit(form: FormGroup) {    
     const body = {
       "producto": 'demo-total-play',
       "token": "6cf2a746-af17-40c1-91d2-68d601a76f57",
