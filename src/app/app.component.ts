@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
   onSubmit(form: FormGroup) {    
     const body = {
       "producto": 'demo-total-play',
-      "token": "6cf2a746-af17-40c1-91d2-68d601a76f57",
+      "token_key": "6cf2a746-af17-40c1-91d2-68d601a76f57",
       "telefono": form.value.telefono,
       "nombre-completo": form.value.nombre,
       "direccion": form.value.direccion,
