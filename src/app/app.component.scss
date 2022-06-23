@@ -18,3 +18,18 @@ body {
     background: red;
     width: 120px;
   }
+
+@media (max-width: 476px) { 
+  .padre {
+    padding-top: 3rem;
+    height: auto;
+    /*IMPORTANTE*/
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+}
