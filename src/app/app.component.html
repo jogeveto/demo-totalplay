@@ -18,8 +18,8 @@
         . <a href="https://totalplay.co/">https://totalplay.co/</a> parte inferior.
       </p>
       <!-- Formulario total play-->
-      <form [formGroup]="totalForm" (ngSubmit)="onSubmit(totalForm)" class="row col-sm-2 col-12">
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+      <form [formGroup]="totalForm" (ngSubmit)="onSubmit(totalForm)" class="row col-12">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Nombres y apellidos *
           </label>
@@ -28,7 +28,7 @@
           <div *ngIf="f.nombre.hasError('required') && f.nombre.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
             Nombres y apellisdos son requeridos</div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Dirección *
           </label>
@@ -36,7 +36,7 @@
           <div *ngIf="f.direccion.hasError('required') && f.direccion.touched"
             style="color: red; font-size: 11px !important; margin-top: 8px;"> Dirección es requerida </div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Barrio *
           </label>
@@ -44,7 +44,7 @@
           <div *ngIf="f.barrio.hasError('required') && f.barrio.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
             Barrio es requerido</div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Teléfono de contacto *
           </label>
@@ -52,7 +52,7 @@
           <div *ngIf="f.telefono.hasError('required') && f.telefono.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
             Teléfono de contacto es requerido</div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Proveedor de internet y TV actual *
           </label>
@@ -62,7 +62,7 @@
             style="color: red; font-size: 11px !important; margin-top: 8px;"> Proveedor de internet y TV actual es
             requerido</div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px;">
+        <div class="col-12" style="margin-top: 15px;">
           <label class="form-label">
             Tiempo con este proveedor *
           </label>
@@ -72,7 +72,7 @@
           <div *ngIf="f.tiempo.hasError('pattern') && f.tiempo.touched" style="color: red; font-size: 11px !important; margin-top: 8px;">
             Solo se admiten números </div>
         </div>
-        <div class="col-sm-2 col-12" style="margin-top: 15px; margin-bottom: 32px;">
+        <div class="col-12" style="margin-top: 15px; margin-bottom: 32px;">
           <label class="form-label">
             Código Promotor *
           </label>
